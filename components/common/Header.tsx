@@ -99,7 +99,7 @@ const Header = () => {
             onClick={() => router.refresh()}
             className="shadow border-2 border-primary text-primary flex justify-center items-center transition-all duration-150 ease-linear cursor-pointer text-xl font-semibold logo-box"
           >
-            U
+            FA
           </motion.div>
 
           {/* Desktop Menu */}
@@ -121,9 +121,7 @@ const Header = () => {
                   duration={500}
                 >
                   <div className="text-LightestSlate text-[13px] flex items-center group hover:text-primary transition-all duration-150 ease-linear">
-                    <span className="heading-num text-primary transition-all duration-150 ease-linear mr-1 text-xs">
-                      0{index + 1}.{" "}
-                    </span>
+                   
                     {nav.title}
                   </div>
                 </Link>
@@ -166,9 +164,9 @@ const Header = () => {
                   onClick={handleToggleMenu}
                 >
                   <div className="text-LightestSlate text-[17px] flex items-center group hover:text-primary transition-all duration-150 ease-linear">
-                    <span className="heading-num text-primary transition-all duration-150 ease-linear mr-1 text-xs">
+                    {/* <span className="heading-num text-primary transition-all duration-150 ease-linear mr-1 text-xs">
                       0{index + 1}.{" "}
-                    </span>
+                    </span> */}
                     {nav.title}
                   </div>
                 </Link>

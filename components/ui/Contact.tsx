@@ -52,7 +52,7 @@ const Contact = () => {
           whileInView="onscreen"
           viewport={{ once: true }}
           variants={productVariants}
-          href="mailto: mengwa44@yahoo.com" className="w-max mx-auto block">
+          href="mailto: angalafynetonye@gmail.com" className="w-max mx-auto block">
           <Button text="Say Hello" />
         </motion.a>
       </Container>

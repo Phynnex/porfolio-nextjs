@@ -23,7 +23,7 @@ const Home = () => {
             transition={{ duration: 0.3, delay: 2.3 }}
             className="text-LightestSlate xl:text-6xl md:text-5xl text-3xl font-bold lg:mb-4 mb-2 xl:mt-6 mt-3"
           >
-            Mengwa Ugochukwu.
+            Fyne Tonye Angala
           </motion.h1>
           <motion.h1
             initial={{ y: 28, opacity: 0 }}
@@ -31,7 +31,7 @@ const Home = () => {
             transition={{ duration: 0.3, delay: 2.4 }}
             className="xl:text-6xl md:text-5xl text-3xl font-bold text-Slate"
           >
-            I build things for the web.
+           I create web-based solutions.
           </motion.h1>
           <motion.p
             initial={{ y: 28, opacity: 0 }}
@@ -39,7 +39,7 @@ const Home = () => {
             transition={{ duration: 0.3, delay: 2.5 }}
             className="text-Slate md:mt-9 mt-6 md:mb-12 mb-8 md:text-[17px] text-[15px] md:leading-7 leading-6 max-w-2xl w-full pr-7"
           >
-            As an experienced Frontend Software Engineer, I have a strong record in creating and implementing interactive and user-centric applications. I{"'"}m passionate about cutting-edge, pixel-perfect, beautiful interfaces and intuitively implemented UX.
+            As an experienced Frontend Software Developer with a strong focus on JavaScript, I have successfully developed and maintained high- performance products across various industries, including security and fintech. I am proficient in modern JavaScript frameworks and libraries such as ReactJs and NextJs, which I use to build responsive and user- friendly interfaces. Passionate about leveraging technology to solve problems.
           </motion.p>
           <Link
             activeClass="active"

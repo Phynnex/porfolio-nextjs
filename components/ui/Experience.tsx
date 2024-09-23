@@ -10,56 +10,41 @@ const Experience = () => {
     {
       id: 1,
       name: "Ethnos Cyber Limited",
-      role: "Frontend Developer",
-      fromDate: "Feb 2022",
+      role: "Software Developer",
+      fromDate: "Sept 2022",
       toDate: "Present",
       isFullTime: true,
       details: [
-        "Build a mobile security platorm called aquila where developers can upload their apk or ipa files and scan for vulnerabilities in their application.",
-        "Spear Headed is the design of Aquila Mobile security platorm using figma.",
-        "Developed a Chat system using technologies like socket.io where users can chat with the custmer representative and lay their complaint.",
+        "Built a mobile security platorm called aquila where developers can upload their apk or ipa files and scan for vulnerabilities in their application.",
+        "Developed an intuitive and engaging user interface that enhances the learning experience for users, making complex security simple",
         "Developed chat support functionality using socket.io"
       ],
     },
     {
       id: 2,
-      name: "Castillon Tech",
-      role: "Graphics | UI | UX",
+      name: "Canary Point Cooperate Services",
+      role: "Junior Software Developer",
       fromDate: "Jan 2021",
-      toDate: "Aug 22",
+      toDate: "June 2021",
       isFullTime: true,
       details: [
-        "Create wireframes and prototypes to visualize the basic layout and functionality of pages or screens in the product.",
-        "Developing branding materials like logos, color palettes, and general visual identity guidelines. This aspect ensures that the product communicates the desired message and values of the brand effectively with Photoshop and Illustrator.",
-        "Create content for different Client and managing their Social Media Handle.",
+        "Designed and developed a user-friendly and visually appealing company website, ensuring a seamless user experience across all devices.",
+        "Implemented SEO best practices to improve search engine ranking and increase website traffic, leading to higher visibility and engagement.",
       ],
     },
     {
       id: 3,
-      name: "IDizyn Solution",
-      role: "Web Design - ( wordPress )",
-      fromDate: "April 2018 ",
-      toDate: "july 2019",
-      isFullTime: false,
-      details: [
-        "Develop Astoning web pages using wordpress for different Clients",
-        "Assist in creating digital artwork (graphics designs) used in developing most of the websites",
-        "Implementing responsive design and ensuring cross-browser compatibility."
-      ],
-    },
-    {
-      id: 4,
-      name: "SpendidComm Tech",
-      role: "Web Design Intern",
-      fromDate: "Jan 2018",
-      toDate: "June 2018",
+      name: "Novelle Innovation Center",
+      role: "Technical and Customer Support",
+      fromDate: "Nov 2015",
+      toDate: "December 2020",
       isFullTime: true,
       details: [
-        "Developed and maintained responsive web applications using HTML CSS and javascript",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-        
+        "Collected and analyzed customer feedback to identify areas for improvement, leading to enhanced product features and better customer service.",
+        "Identified and resolved operational issues with computers and gadgets after proper troubleshooting.",
       ],
     },
+    
    
   ];
 

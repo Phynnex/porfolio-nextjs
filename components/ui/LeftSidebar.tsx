@@ -9,23 +9,19 @@ const LeftSidebar = () => {
     {
       title: 'GitHub',
       icon: 'codicon:github-alt',
-      link: 'https://github.com/Vivahjah'
+      link: 'https://github.com/Phynnex'
     },
     {
       title: 'LinkedIn',
       icon: 'uit:linkedin-alt',
-      link: 'https://www.linkedin.com/in/mengwa-ugochukwu/'
+      link: 'https://www.linkedin.com/in/fyne-tonye-angala/'
     },
     {
       title: 'Facebook',
       icon: 'uit:facebook-f',
-      link: 'https://www.facebook.com/vivahjah?mibextid=ZbWKwL'
+      link: 'https://www.facebook.com/fynnexzx/'
     },
-    {
-      title: 'Instagram',
-      icon: 'ph:instagram-logo-light',
-      link: 'https://www.instagram.com/vivahjahofficial/'
-    },
+   
   ]
 
   return (

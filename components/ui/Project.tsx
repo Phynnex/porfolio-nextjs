@@ -56,7 +56,7 @@ const Project = () => {
 
           {/*      OTHER PROJECTS      */}
 
-          <div className="mt-36">
+          {/* <div className="mt-36">
             <motion.h1
               initial="offscreen"
               whileInView="onscreen"
@@ -120,7 +120,7 @@ const Project = () => {
                 )}
               </>
             )}
-          </div>
+          </div> */}
         </div>
       </Container>
     </section>

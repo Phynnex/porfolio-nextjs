@@ -24,16 +24,14 @@ const About = () => {
 
   const skills = [
     'Reactjs',
-    'React',
     'Nextjs',
     'TypeScript',
     'Redux',
     'Tailwind CSS',
     'Framer Motion',
-    'Adobe Illustrator',
-    'Figma',
-    'Nodejs',
-    'Adobe Photoshop',
+
+
+   
   ]
 
   return (
@@ -65,18 +63,8 @@ const About = () => {
                 viewport={{ once: true }}
                 variants={cardVariants}
               >
-                Hello! My name is Mengwa Ugochukwu, and I enjoy creating dynamic and
-                engaging web applications. My journey into web development began
-                with experimenting with HTML and CSS to customize my first
-                personal website. The thrill of bringing my ideas to life on the
-                internet quickly grew into a passion for coding and building
-                impactful digital experiences. <br /> <br /> Fast-forward to today, and I&apos;ve
-                had the privilege of working on a wide range of projects in
-                various settings, from start-ups to established corporations.
-                I&apos;ve collaborated with talented teams to develop responsive,
-                user-friendly applications that meet diverse client needs. My
-                main focus now is building scalable, high-performance web aplications using cutting-edge technologies.
-                <br /> <br />
+               Growing up, I was captivated by the possibilities of technology, dreaming of one day creating software that could change the world, just like Bill Gates. That childhood fascination with computer science eventually led me to pursue a degree in the field. However, the path wasn't always straightforward - there were moments of distraction and uncertainty along the way. <br/><br/>It wasn't until I enrolled in a coding bootcamp that the spark was reignited, and I found myself immersed in the thrill of building dynamic, impactful web applications. Since then, I've had the privilege of collaborating with talented teams within fast-paced environments, developing responsive, user-friendly solutions that cater to diverse client needs.
+<br/><br/>Now, my focus is on harnessing the latest technologies to craft scalable, high-performance web applications that push the boundaries of what's possible. I'm driven by the power of technology to transform the digital landscape and create meaningful experiences for users. My goal is to apply my skills and passion within a standard organization, where I can continue to grow and contribute to the development of innovative, industry-leading products.
                 Here are a few technologies I’ve been working with recently:
 
                 <div className="grid md:grid-cols-3 grid-cols-2 mt-5">

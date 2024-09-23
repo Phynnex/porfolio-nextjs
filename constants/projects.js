@@ -22,13 +22,13 @@ export const featuredProjects = [
     githubUrl: "",
   },
   {
-    name: "Spin it.",
+    name: "Moore Admin Dashboard.",
     image: project3,
     detail: 
-        "A personal design I did while learning Three.js, Threejs helps to display 3d images on a web bowser. Don't forget to get the earth a spin",
-    tech: ["React.js", "Tailwind CSS", "three.js"],
-    webUrl: "https://spin-it.netlify.app/",
-    githubUrl: "",
+        " Built an admin dashboard for the fintech startup, providing administrators with powerful tools to manage and analyze financial data effectively.",
+    tech: ["React.js", "Tailwind CSS", "Redux Toolkit", "TypeScript"],
+    webUrl: "https://manage.getmoore.africa/",
+    githubUrl: "https://github.com/Phynnex/moore-finance",
   },
 ];
 
