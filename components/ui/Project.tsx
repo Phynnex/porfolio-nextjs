@@ -54,73 +54,7 @@ const Project = () => {
             ))}
           </div>
 
-          {/*      OTHER PROJECTS      */}
-
-          {/* <div className="mt-36">
-            <motion.h1
-              initial="offscreen"
-              whileInView="onscreen"
-              viewport={{ once: true }}
-              variants={productVariants}
-              className="md:text-3xl text-2xl font-semibold text-LightestSlate text-center"
-            >
-              Other Noteworthy Projects
-            </motion.h1>
-            <motion.p
-              initial="offscreen"
-              whileInView="onscreen"
-              viewport={{ once: true }}
-              variants={productVariants}
-              className="text-[13px] tracking-widest text-primary text-center mt-2"
-            >
-              view the archive
-            </motion.p>
-            <motion.div
-              initial="offscreen"
-              whileInView="onscreen"
-              viewport={{ once: true }}
-              variants={productVariants}
-              className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-3.5 gap-y-4 mt-12"
-            >
-              {projects.map(
-                (data, index) =>
-                  (!isShowMore ? index < 3 : index < projects.length) && (
-                    <motion.div
-                      key={index}
-                      viewport={{ once: true }}
-                      initial={{ opacity: 0 }}
-                      whileInView={{ opacity: 1 }}
-                      transition={{
-                        duration: 0.3,
-                        delay: isShowMore ? (index / 20) *  2 : index / (index + 5) * 2.0,
-                      }}
-                      className="bg-LightNavy rounded px-6 py-7 transform hover:-translate-y-2 transition-translate duration-300 ease-in-out group"
-                    >
-                      <ProjectCard project={data} />
-                    </motion.div>
-                  )
-              )}
-            </motion.div>
-            {projects.length > 3 && (
-              <>
-                {isShowMore ? (
-                  <div
-                    className="my-20 w-max mx-auto"
-                    onClick={() => setIsShowMore(false)}
-                  >
-                    <Button text="Show Less" />
-                  </div>
-                ) : (
-                  <div
-                    className="my-20 w-max mx-auto"
-                    onClick={() => setIsShowMore(true)}
-                  >
-                    <Button text="Show More" />
-                  </div>
-                )}
-              </>
-            )}
-          </div> */}
+        
         </div>
       </Container>
     </section>
