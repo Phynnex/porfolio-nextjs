@@ -27,7 +27,7 @@ export const featuredProjects = [
     image: project3,
     detail: 
         " Built an admin dashboard for the fintech startup, providing administrators with powerful tools to manage and analyze financial data effectively.",
-    tech: ["React.js", "Tailwind CSS", "Redux Toolkit", "TypeScript"],
+    tech: ["Next.js", "Shadcn", "Zustand", "React Querry", "TypeScript"],
     webUrl: "https://manage.getmoore.africa/",
     githubUrl: "https://github.com/Phynnex/moore-finance",
   },
@@ -36,7 +36,7 @@ export const featuredProjects = [
     image: project4,
     detail: 
         " Built a  client portal for a fictional investment company, enabling clients to access their accounts, view transactions, and manage their portfolios seamlessly.",
-    tech: ["React.js", "Tailwind CSS", "Redux Toolkit", "TypeScript"],
+    tech: ["Next.js", "Tailwind CSS", "Redux Toolkit", "TypeScript"],
     webUrl: "https://client-portal-demo-ten.vercel.app/",
     githubUrl: "https://github.com/Phynnex/client-portal-demo",
   },
